@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    /*color: #fff;*/
+    line-height: 1.5;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2em;
+}
+
+/*headings*/
+
+#company-name {
+    color: #DEC9E9;
+    font-size: 1.5rem;
+}
+
+#intro,
+#fan-fav,
+#team {
+    padding: 4em 0;
+}
+
+#header {
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    text-decoration: none;
+    color: #DEC9E9
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #fff;
+}
+
+#hero-banner {
+    height: 60vh;
+    background-color: #7251B5;
+    background-image: url(../images/ice-cream-cones.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+    
